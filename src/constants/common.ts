@@ -1,0 +1,1 @@
+export const STATIC_HOST = 'https://js-post-api.herokuapp.com/api';
