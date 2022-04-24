@@ -73,7 +73,7 @@ export default function ListPage(props: ListPageProps) {
         }))
     };
     const handleFilterChange = (newFilters: ListParams) => {
-        dispatch(studentActions.setFilter(newFilters))
+        dispatch(studentActions.setFilterDebonce(newFilters))
     }
     // Create cityMap
     const cityMap = cityList.reduce((newCityList: { [key: string]: City }, city) => {
